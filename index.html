@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Personal Portfolio</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/normalize.css" />
   </head>
   <body>
@@ -49,7 +50,7 @@
             alt="Sertification"
           />
           <div class="counts-item-number">
-            <p class="number">5+</p>
+            <p class="number counter" data-target="5">0</p>
             <p class="number-description">Years of Experience</p>
           </div>
           <img src="images/next-right.svg" alt="next-right" />
@@ -57,7 +58,7 @@
         <div class="counts-item">
           <img class="count-icon" src="images/check.svg" alt="Sertification" />
           <div class="counts-item-number">
-            <p class="number">100+</p>
+            <p class="number counter" data-target="100">0</p>
             <p class="number-description">Completed Projects</p>
           </div>
           <img src="images/next-right.svg" alt="next-right" />
@@ -69,7 +70,7 @@
             alt="Sertification"
           />
           <div class="counts-item-number">
-            <p class="number">50+</p>
+            <p class="number counter" data-target="50">0</p>
             <p class="number-description">Happy Clients</p>
           </div>
           <img src="images/next-right.svg" alt="next-right" />
@@ -146,33 +147,196 @@
         <div class="portfolio">
           <div class="portfolio-group">
             <div class="portfolio-item" data-item="mobile">
-              <img src="images/work-1.png" alt="mobile app">
+              <img src="images/work-1.png" alt="">
             </div>
              <div class="portfolio-item" data-item="website">
-              <img src="images/work-2.png" alt="development app">
+              <img src="images/work-2.png" alt="">
             </div>
           </div>
           <div  class="portfolio-group">
             <div class="portfolio-item" data-item="design">
-             <img src="images/work-3.png" alt="design app">
+             <img src="images/work-3.png" alt="">
            </div>
-            <div class="portfolio-item" data-item="website">
-             <img src="images/work-4.png" alt="development app">
+            <div class="portfolio-item" data-item="mobile">
+             <img src="images/work-4.png" alt="">
            </div>
           </div>
           <div  class="portfolio-group">
             <div class="portfolio-item" data-item="design">
-             <img src="images/work-5.png" alt="design app">
+             <img src="images/work-5.png" alt="">
            </div>
             <div class="portfolio-item" data-item="website">
-             <img src="images/work-6.png" alt="development app">
+             <img src="images/work-6.png" alt="">
            </div>
           </div>
         </div>
       </section>
+
+      <div class="testimonials">
+        <p>testimonials</p>
+        <h2 class="">What Customer Says</h2>
+      </div>
+    </div>
+
+     <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="images/star.svg" alt="">
+          <p class="swiper-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus
+          </p>
+          <div class="user">
+            <img src="images/user.svg" alt="">
+            <div>
+              <h3>Khushi Gupta</h3>
+              <p>Designer</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/star.svg" alt="">
+          <p class="swiper-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus
+          </p>
+          <div class="user">
+            <img src="images/user.svg" alt="">
+            <div>
+              <h3>Khushi Gupta</h3>
+              <p>Designer</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/star.svg" alt="">
+          <p class="swiper-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus
+          </p>
+          <div class="user">
+            <img src="images/user.svg" alt="">
+            <div>
+              <h3>Khushi Gupta</h3>
+              <p>Designer</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/star.svg" alt="">
+          <p class="swiper-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus
+          </p>
+          <div class="user">
+            <img src="images/user.svg" alt="">
+            <div>
+              <h3>Khushi Gupta</h3>
+              <p>Designer</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/star.svg" alt="">
+          <p class="swiper-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus
+          </p>
+          <div class="user">
+            <img src="images/user.svg" alt="">
+            <div>
+              <h3>Khushi Gupta</h3>
+              <p>Designer</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/star.svg" alt="">
+          <p class="swiper-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus
+          </p>
+          <div class="user">
+            <img src="images/user.svg" alt="">
+            <div>
+              <h3>Khushi Gupta</h3>
+              <p>Designer</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/star.svg" alt="">
+          <p class="swiper-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus
+          </p>
+          <div class="user">
+            <img src="images/user.svg" alt="">
+            <div>
+              <h3>Khushi Gupta</h3>
+              <p>Designer</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="images/star.svg" alt="">
+          <p class="swiper-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam, purus sit amet luctus venenatis, lectus magna fringilla urna, porttitor rhoncus dolor purus
+          </p>
+          <div class="user">
+            <img src="images/user.svg" alt="">
+            <div>
+              <h3>Khushi Gupta</h3>
+              <p>Designer</p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <!-- <div class="swiper-pagination"></div> -->
+    </div>
+
+    <div class="info">
+      <span>Start a project</span>
+      <p>
+        Interested in working together? We should queue up a chat. I’ll buy the coffee.
+      </p>
+      <button type="button">Let’s do this</button>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-user">
+        <h2>Kartik Bansal.</h2>
+        <p>Creative designer & front-end developer</p>
+      </div>
+      <div class="footer-links">
+        <p>Useful Links</p>
+        <ul class="footer-menu">
+          <li class="footer-item"><a href="#" class="footer-link">Home</a></li>
+          <li class="footer-item"><a href="#" class="footer-link">About</a></li>
+          <li class="footer-item"><a href="#" class="footer-link">Skills</a></li>
+          <li class="footer-item"><a href="#" class="footer-link">Portfolio</a></li>
+          <li class="footer-item"><a href="#" class="footer-link">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-social footer-links">
+         <p>Social Media</p>
+        <ul class="footer-menu">
+          <li class="footer-item"><a href="#" class="footer-link">Instagram</a></li>
+          <li class="footer-item"><a href="#" class="footer-link">Linkedin</a></li>
+          <li class="footer-item"><a href="#" class="footer-link">Drible</a></li>
+          <li class="footer-item"><a href="#" class="footer-link">Behance</a></li>
+          <li class="footer-item"><a href="#" class="footer-link">Github</a></li>
+        </ul>
+      </div>
+      <div class="footer-newsletter footer-links">
+        <p>Newsletter</p>
+        <span>Enter your email and get notified about news, of.</span>
+        <div class="footer-input">
+          <input required type="email" placeholder="Your email address">
+          <img src="images/telegram-icon.svg" alt="">
+        </div>
+      </div>
+    </footer>
+
+
     </div>
     <!-- /.container -->
 
-    <script src="main.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
